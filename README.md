@@ -8,7 +8,7 @@ This repository is a work in progress. It contains various Python practice proje
 
 ## Tree
 
-'''bash
+```bash
 75 ~/Projects/Python-practice $ tree
 .
 ├── Code-refactoring
@@ -29,7 +29,7 @@ This repository is a work in progress. It contains various Python practice proje
 │   │   └── test.py
 │   └── utils.py
 └── dictionary_reverse.py
-'''
+```
 ---
 
 ## 1. Calculator
