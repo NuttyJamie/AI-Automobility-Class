@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	dictionary_reverse.py	/^A={'a':1, 'b':2, 'c':3, 'd':5, 'e':5, 'f':6, 'g':7}$/;"	v
+B	dictionary_reverse.py	/^B=reverse_dic(A)$/;"	v
+Calculator	calc.py	/^class Calculator:$/;"	c
+Engineering_Calculator	calc.py	/^class Engineering_Calculator(Calculator):$/;"	c
+T	9086.py	/^T=int(input())$/;"	v
+__init__	calc.py	/^	def __init__(self):$/;"	m	class:Calculator
+__init__	calc.py	/^	def __init__(self):$/;"	m	class:Engineering_Calculator
+_precision	calc.py	/^	def _precision(self, num, digit):$/;"	m	class:Calculator
+_return_float	calc.py	/^	def _return_float(self, obj, opt):$/;"	m	class:Calculator
+add	calc.py	/^	def add(self, *args, **kwargs):$/;"	m	class:Calculator
+calc	calc.py	/^calc=Calculator()$/;"	v
+cos	calc.py	/^	def cos(self, x, angle_unit='radian', **kwargs):$/;"	m	class:Engineering_Calculator
+divide	calc.py	/^	def divide(self, *args, **kwargs):$/;"	m	class:Calculator
+divide	calc.py	/^	def divide(self, *args, **kwargs):$/;"	m	class:Engineering_Calculator
+eng_calc	calc.py	/^eng_calc=Engineering_Calculator()$/;"	v
+ln	calc.py	/^	def ln(self, x, **kwargs):$/;"	m	class:Engineering_Calculator
+log	calc.py	/^	def log(self, x, base=10, **kwargs):$/;"	m	class:Engineering_Calculator
+math	calc.py	/^import math$/;"	i
+multiply	calc.py	/^	def multiply(self, *args, **kwargs):$/;"	m	class:Calculator
+power	calc.py	/^	def power(self, x, y, **kwargs):$/;"	m	class:Engineering_Calculator
+reverse_dic	dictionary_reverse.py	/^def reverse_dic(dic):$/;"	f
+sin	calc.py	/^	def sin(self, x, angle_unit='radian', **kwargs):$/;"	m	class:Engineering_Calculator
+square_root	calc.py	/^	def square_root(self, x, **kwargs):$/;"	m	class:Engineering_Calculator
+string	9086.py	/^	string=input()$/;"	v
+subtract	calc.py	/^	def subtract(self, *args, **kwargs):$/;"	m	class:Calculator
+tan	calc.py	/^	def tan(self, x, angle_unit='radian', **kwargs):$/;"	m	class:Engineering_Calculator

@@ -1,14 +1,42 @@
 # Python Practice Projects
 
-This repository contains various Python practice projects to help sharpen coding skills. Below is a brief overview of the projects included.
+This repository is a work in progress. It contains various Python practice projects to help sharpen your coding skills. Below is a brief overview of the projects included.
 
+## Environment 
+- Slaceware 15.0 linux
+- Python 3.9.10
+
+## Tree
+
+'''bash
+75 ~/Projects/Python-practice $ tree
+.
+├── Code-refactoring
+│   ├── game_of_life.py
+│   ├── game_of_life_refactored.py
+│   └── tests.py
+├── LICENSE
+├── README.md
+├── calculator
+│   ├── LICENSE
+│   ├── README.md
+│   ├── __init__.py
+│   ├── basic.py
+│   ├── calculator_class.py
+│   ├── engineering.py
+│   ├── tags
+│   ├── test
+│   │   └── test.py
+│   └── utils.py
+└── dictionary_reverse.py
+'''
 ---
 
 ## 1. Calculator
 
 A simple Python calculator that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division and engnieering operations such as trigonometric functions.
 
-<!--[View the code here](link-to-your-calculator-code)-->
+[View the code here](link-to-your-calculator-code)-->
 
 ---
 
@@ -27,7 +55,7 @@ The **Game of Life** is a cellular automaton devised by the mathematician John C
 
 This project is my Python implementation of Conway's Game of Life. It randomly initializes a board and follows the rules to simulate cellular evolution.
 
-<!--[View the code here](link-to-your-game-of-life-code) -->
+[View the code here](./Code-refactoring/game_of_life_refactored.py)
 
 ---
 
@@ -42,9 +70,13 @@ This project is my Python implementation of Conway's Game of Life. It randomly i
     cd Python-practice
     ```
 3. Run the Python scripts for each project:
-    <!--python calculator.py-->
     ```bash
-    python game_of_life.py
+    python Code-refactoring/game_of_life.py
+    python Code-refactoring/game_of_life_refactored.py
+    ```
+    ```bash
+	python calculator/basic.py
+	python calculator/engnieering.py
     ```
 
 Feel free to explore, contribute, or suggest improvements to these projects!
@@ -53,4 +85,4 @@ Feel free to explore, contribute, or suggest improvements to these projects!
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](link-to-license-file) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
