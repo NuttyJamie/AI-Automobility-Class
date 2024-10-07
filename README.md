@@ -35,8 +35,9 @@ This repository is a work in progress. It contains various Python practice proje
 ## 1. Calculator
 
 A simple Python calculator that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division and engnieering operations such as trigonometric functions.
+It will help you understand concepts such as functions, classes, modules and packages and improve your ability to write them. 
 
-[View the code here](link-to-your-calculator-code)-->
+[View the code here](./calculator/basic.py)
 
 ---
 
@@ -71,7 +72,7 @@ This project is my Python implementation of Conway's Game of Life. It randomly i
     ```
 3. Run the Python scripts for each project:
     ```bash
-    python Code-refactoring/game_of_life.py
+    python Code-refactoring/game_of_life.py		# OR
     python Code-refactoring/game_of_life_refactored.py
     ```
     ```bash

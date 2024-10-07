@@ -162,3 +162,5 @@ cython_debug/
 #.idea/
 # vim undo files
 *.*~
+# .swp files
+.*.*.swp

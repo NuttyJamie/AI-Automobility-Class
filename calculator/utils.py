@@ -1,3 +1,5 @@
+import math
+
 def round_result(value, precision):
 	format_string = "{:." + str(precision) + "f}"
 	return format_string.format(value)
