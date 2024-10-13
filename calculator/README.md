@@ -1,4 +1,5 @@
 #패키지 구조
+```bash
 calculator/
 │
 ├── __init__.py
@@ -28,8 +29,10 @@ calculator/
 │		round_result()
 │		convert_to_radians()
 └── README.md
+```
 
 =================사용 예시==================
+```python
 #인스턴스 생성:
 cal=Calculator()
 
@@ -58,4 +61,5 @@ except DivisionByZeroError as e:
     print(e)
 
 => Division by zero is not allowed
+```
 =============================================
