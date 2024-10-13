@@ -4,12 +4,12 @@ This repository contains various projects and practice scripts related to AI, Py
 
 ## Table of Contents
 
-- [Environment](#https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#environment)
-- [Project Overview](#https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#project-overview)
-- [Directory Structure](#https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#directory-structure)
-- [Setup Instructions](#https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#setup-instructions)
-- [Usage](#https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#usage)
-- [License](#https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#license)
+- [Environment](https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#environment)
+- [Project Overview](https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#project-overview)
+- [Directory Structure](https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#directory-structure)
+- [Setup Instructions](https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#setup-instructions)
+- [Usage](https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#usage)
+- [License](https://github.com/NuttyJamie/AI-Automobility-Class/blob/main/README.md#license)
 
 ## Environment
 - Slaceware 15.0 linux
