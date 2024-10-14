@@ -14,6 +14,7 @@ This repository contains various projects and practice scripts related to AI, Py
 ## Environment
 - Slaceware 15.0 linux
 - Python 3.9.10
+- Git 2.35.1
 
 ## Project Overview
 
@@ -22,48 +23,54 @@ This project includes exercises and examples focusing on:
 - **MNIST Dataset**: Various scripts related to the MNIST dataset and neural networks, including regression models, perceptrons, and deep learning from scratch.
 - **Python Practice**: General Python exercises such as code refactoring and utility scripts.
 - **Calculators**: A simple calculator implementation with basic and engineering operations.
+- **Git Practice**: Basic git commands 
 
 ## Directory Structure
 
 Here is a breakdown of the repository structure:
 
 ```bash
+96 ~/Projects/AI-Automobility-Class $ tree
 .
-├── LICENSE                       # License file
-├── MNIST                         # Contains MNIST related scripts and data files
-│   ├── MNIST-myown.py            # Custom MNIST example
-│   ├── MNIST_1node.py            # Single-node neural network example
-│   ├── MNIST_Class.py            # MNIST class-based model
-│   ├── MNIST_regression.py       # MNIST regression example
-│   ├── NN.py                     # Neural network script
-│   ├── Untitled.ipynb            # Jupyter notebook for experimentation
-│   ├── basic-perceptron.py       # Perceptron example
-│   ├── mnist_deeplearning-from-scatch.py  # Deep learning from scratch
-│   ├── sample_weight.pkl         # Sample weights for the neural network
-│   ├── t10k-images-idx3-ubyte    # Test images (MNIST)
-│   ├── t10k-labels-idx1-ubyte    # Test labels (MNIST)
-│   ├── train-images-idx3-ubyte   # Training images (MNIST)
-│   └── train-labels-idx1-ubyte   # Training labels (MNIST)
-├── Notes                         # Notes and documentation
-│   └── README.md                 # Notes README file
-├── Python-practice               # General Python practice and exercises
-│   ├── Code-refactoring          # Examples of refactoring
-│   │   ├── game_of_life.py       # Original Game of Life implementation
-│   │   ├── game_of_life_refactored.py  # Refactored Game of Life
-│   │   └── tests.py              # Unit tests for Game of Life
-│   ├── README.md                 # Python practice README file
-│   ├── calculator                # Simple calculator implementation
-│   │   ├── LICENSE               # License for calculator project
-│   │   ├── README.md             # README file for calculator project
-│   │   ├── __init__.py           # Init file
-│   │   ├── basic.py              # Basic calculator operations
-│   │   ├── calculator_class.py   # Calculator class
-│   │   ├── engineering.py        # Engineering operations
-│   │   ├── test                  # Test scripts
-│   │   │   └── test.py           # Unit tests for calculator
-│   │   └── utils.py              # Utility functions
-│   └── dictionary_reverse.py     # Reverse dictionary implementation
-└── README.md                     # Main project README file
+├── LICENSE
+├── MNIST
+│   ├── MNIST-myown.py
+│   ├── MNIST_1node.py
+│   ├── MNIST_Class.py
+│   ├── MNIST_regression.py
+│   ├── NN.py
+│   ├── Untitled.ipynb
+│   ├── basic-perceptron.py
+│   ├── mnist_deeplearning-from-scatch.py
+│   ├── sample_weight.pkl
+│   ├── t10k-images-idx3-ubyte
+│   ├── t10k-labels-idx1-ubyte
+│   ├── train-images-idx3-ubyte
+│   └── train-labels-idx1-ubyte
+├── Notes
+│   └── README.md
+├── Python-practice
+│   ├── Code-refactoring
+│   │   ├── game_of_life.py
+│   │   ├── game_of_life_refactored.py
+│   │   └── tests.py
+│   ├── README.md
+│   ├── calculator
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   │   ├── basic.py
+│   │   ├── calculator_class.py
+│   │   ├── engineering.py
+│   │   ├── tags
+│   │   ├── test
+│   │   │   └── test.py
+│   │   └── utils.py
+│   └── dictionary_reverse.py
+├── README.md
+└── git-practice
+    ├── dummy.py
+    └── foo.py
 ```
 
 ## Setup Instructions
